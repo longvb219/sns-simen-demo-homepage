@@ -207,7 +207,7 @@
     content: "";
     width: 100%;
     height: 3px;
-    background: url(/assets/img/double-dotted.png);
+    background: url(./assets/img/double-dotted.png);
     position: absolute;
     top: 0;
     left: 0;
@@ -216,7 +216,7 @@
     content: "";
     width: 100%;
     height: 3px;
-    background: url(/assets/img/double-dotted.png);
+    background: url(./assets/img/double-dotted.png);
     position: absolute;
     bottom: 0;
     right: 0;
