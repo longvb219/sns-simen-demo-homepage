@@ -1,0 +1,138 @@
+:root {
+    --white-color: #fff;
+    --black-color: #000;
+    --hover-color: #e34444;
+    --menu-color: #333;
+    --text-color: #666;
+    --border-color: #eaeaea;
+    --rated-color: #f1d201;
+}
+* {
+    box-sizing: inherit;
+}
+html {
+    font-size: 100%;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+/* Grid */
+.grid {
+    width: 1170px;
+    max-width: 100%;
+    margin: 0 auto;
+}
+.grid__full-width {
+    width: 100%;
+}
+.grid__row-menu {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+.grid__col-l-3 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 25%;
+}
+.grid__col-l-4 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 33.3333%;
+}
+.grid__col-l-6 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 50%;
+}
+.grid__col-l-9 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 75%;
+}
+.grid__col-l-12 {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: 100%;
+}
+.grid__row-product {
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: -10px;
+    margin-right: -10px;
+}
+.grid__col-s-1-33 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 11.1111%;
+}
+.grid__col-s-2 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 16.6667%;
+}
+.grid__col-s-2-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 20%;
+}
+.grid__col-s-3 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 25%;
+}
+.grid__col-s-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 33.3333%;
+}
+.grid__col-s-5-4 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 45%;
+}
+.grid__col-s-6-6 {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 55%;
+}
+.grid__col-half {
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 50%;
+}
+/* Button style */
+.btn {
+    min-width: 90px;
+    height: 34px;
+    text-decoration: none;
+    border: none;
+    border-radius: 2px;
+    font-size: 1.4rem;
+    padding: 0 12px;
+    outline: none;
+    cursor: pointer;
+    color: var(--text-color);
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 1.4rem;
+}
+.btn.btn--normal:hover {
+    background-color: rgba(0, 0, 0, 0.1);
+}
+.btn.btn--size-s {
+    height: 32px;
+    padding: 0 8px;
+    font-size: 1.2rem;
+
+}
+.btn.btn--primary {
+    color: var(--white-color);
+    background-color: var(--primary-color);
+}
+.btn.btn--disabled {
+    color: #949494;
+    cursor: default;
+    background-color: #c3c3c3;
+}

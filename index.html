@@ -1,0 +1,2325 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Clone of SNS Simen Demo Homepage</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/fonts/fontawesome-free-5.15.4-web/css/all.css">
+</head>
+<body>
+    <div id="app">
+        <header id="top-header">
+            <div class="grid">
+                <div class="top-header__wrapper">
+                    <ul class="top-header__list top-header__nation">
+                        <li class="top-header__list-item top-header__language">
+                            <a href="#" class="top-header__list-link top-header__language--current">
+                                <img src="./assets/img/flag/en.jpg" alt="" class="top-header__flag">
+                                <span>English</span>
+                            </a>
+                            <!-- Language Submenu -->
+                            <ul class="top-header__language-menu">
+                                <li class="top-header__language-menu-item">
+                                    <a href="#" class="top-header__language-menu-item-link">
+                                        <img src="./assets/img/flag/en.jpg" alt="" class="top-header__flag">
+                                        <span>English</span>
+                                    </a>
+                                </li>
+                                <li class="top-header__language-menu-item">
+                                    <a href="#" class="top-header__language-menu-item-link">
+                                        <img src="./assets/img/flag/ru.jpg" alt="" class="top-header__flag">
+                                        <span>Russian</span>
+                                    </a>
+                                </li>
+                                <li class="top-header__language-menu-item">
+                                    <a href="#" class="top-header__language-menu-item-link">
+                                        <img src="./assets/img/flag/bra.jpg" alt="" class="top-header__flag">
+                                        <span>Brazil</span>
+                                    </a>
+                                </li>
+                                <li class="top-header__language-menu-item">
+                                    <a href="#" class="top-header__language-menu-item-link">
+                                        <img src="./assets/img/flag/fr.jpg" alt="" class="top-header__flag">
+                                        <span>France</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="top-header__list-item top-header__currency">
+                            <a href="#" class="top-header__list-link top-header__currency--current">
+                                <span>USD</span>         
+                            </a>
+                            <!-- Currency Submenu -->
+                            <ul class="top-header__currency-menu">
+                                <li class="top-header__currency-menu-item">
+                                    <a href="#" class="top-header__currency-menu-item-link">
+                                        <span>USD</span>
+                                    </a>
+                                </li>
+                                <li class="top-header__currency-menu-item">
+                                    <a href="#" class="top-header__currency-menu-item-link">
+                                        <span>EUR</span>
+                                    </a>
+                                </li>
+                                <li class="top-header__currency-menu-item">
+                                    <a href="#" class="top-header__currency-menu-item-link">
+                                        <span>VND</span>
+                                    </a>
+                                </li>
+                                <li class="top-header__currency-menu-item">
+                                    <a href="#" class="top-header__currency-menu-item-link">
+                                        <span>CNY</span>
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <ul class="top-header__list top-header__login">
+                        <li class="top-header__list-item">
+                            <a href="#" class="top-header__list-link">
+                                <i class="top-header__list-icon fas fa-user"></i>
+                                <span>My Account</span>
+                            </a>
+                        </li>
+                        <li class="top-header__list-item">
+                            <a href="#" class="top-header__list-link">
+                                <i class="top-header__list-icon far fa-heart"></i>
+                                <span>Wishlist</span>            
+                            </a>
+                        </li>
+                        <li class="top-header__list-item">
+                            <a href="#" class="top-header__list-link">
+                                <i class="top-header__list-icon far fa-check-circle"></i>
+                                <span>Checkout</span>                           
+                            </a>
+                        </li>
+                        <li class="top-header__list-item">
+                            <a href="#" class="top-header__list-link">
+                                <i class="top-header__list-icon fas fa-key"></i>
+                                <span>Login</span>          
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </header>
+        <header id="header">
+            <div class="grid header__wrapper">
+                <div class="grid__row-menu">
+                    <div class="grid__col-l-3 header__logo">
+                        <a href="#" class="header__logo-link">
+                            <img src="./assets/img/logo.png" alt="Logo">
+                        </a>
+                    </div>
+                    <div class="grid__col-l-9 header__s-offer">
+                        <div class="grid__row-menu">
+                            <div class="grid__col-l-4 header__s-offer-wrapper">
+                                <div class="header__s-offer-icon">
+                                    <div class="header__s-offer-icon-frame">
+                                        <i class="fas fa-truck header__s-offer-icon-logo"></i>
+                                    </div>
+                                </div>
+                                <div class="header__s-offer-content">
+                                    <a href="#" class="header__s-offer-title">
+                                        FREE DELIVERY WORLDWIDE
+                                    </a>
+                                    <span class="header__s-offer-body">
+                                        On order over $100
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="grid__col-l-4 header__s-offer-wrapper">
+                                <div class="header__s-offer-icon">
+                                    <div class="header__s-offer-icon-frame">
+                                        <i class="fas fa-cloud-upload-alt header__s-offer-icon-logo"></i>
+                                    </div>
+                                </div>
+                                <div class="header__s-offer-content">
+                                    <a href="#" class="header__s-offer-title">
+                                        UP TO 20% OFF COSY LAYERS
+                                    </a>
+                                    <span class="header__s-offer-body">
+                                        Lorem ipsum dolor sit amet
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="grid__col-l-4 header__s-offer-wrapper">
+                                <div class="header__s-offer-icon">
+                                    <div class="header__s-offer-icon-frame">     
+                                        <i class="fas fa-gift header__s-offer-icon-logo"></i>
+                                    </div>
+                                </div>
+                                <div class="header__s-offer-content">
+                                    <a href="#" class="header__s-offer-title">
+                                        BUY 1 GET 1 FREE
+                                    </a>
+                                    <span class="header__s-offer-body">
+                                        On order over $100
+                                    </span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <nav id="navbar">
+            <div class="grid">
+                <div class="navbar__wrapper">
+                    <ul class="navbar__menu">
+                        <li class="navbar__menu-item navbar__menu-item-home">
+                            <a href="" class="navbar__menu-item-link navbar__menu-item-link--current">
+                                Home
+                            </a>
+                            <!-- Home submenu -->
+                            <ul class="navbar__home-menu">
+                                <li class="navbar__home-menu-item">
+                                    <a href="" class="navbar__home-menu-item-link navbar__home-menu-item-link--current">
+                                        Home Page 1
+                                    </a>
+                                </li>
+                                <li class="navbar__home-menu-item">
+                                    <a href="" class="navbar__home-menu-item-link">
+                                        Home Page 2
+                                    </a>
+                                </li>
+                                <li class="navbar__home-menu-item">
+                                    <a href="" class="navbar__home-menu-item-link">
+                                        Home Page 3
+                                    </a>
+                                </li>
+                                <li class="navbar__home-menu-item">
+                                    <a href="" class="navbar__home-menu-item-link">
+                                        Home Page 4
+                                    </a>
+                                </li>
+                                <li class="navbar__home-menu-item">
+                                    <a href="" class="navbar__home-menu-item-link">
+                                        Home Page 5
+                                    </a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar__menu-item navbar__menu-item-furniture">
+                            <a href="" class="navbar__menu-item-link">
+                                Furniture
+                            </a>
+                            <!-- Furniture Submenu -->
+                            <div class="navbar__furniture-menu">
+                                <div class="grid">
+                                    <div class="grid__row-menu">
+                                        <div class="grid__col-l-3">
+                                            <h3 class="navbar__furniture-menu-title">Table</h3>
+                                            <ul class="navbar__furniture-menu-list">
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Kitchen & Dining Room Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Folding Table
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Living Room Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Sofa Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        End Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Coffee Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Pedestal Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Home Office Desks
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="grid__col-l-3">
+                                            <h3 class="navbar__furniture-menu-title">Table</h3>
+                                            <ul class="navbar__furniture-menu-list">
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Living Room Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Sofa Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        End Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Coffee Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Pedestal Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Home Office Desks
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Kids Furniture
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Kitchen & Dinning Room Sets
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="grid__col-l-3">
+                                            <h3 class="navbar__furniture-menu-title">Table</h3>
+                                            <ul class="navbar__furniture-menu-list">
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Kitchen & Dining Room Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Folding Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        End Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Coffee Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        PedestalTables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Home Office Desks
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Kids’ Furniture
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Kitchen & Dinning Room Sets
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="grid__col-l-3">
+                                            <h3 class="navbar__furniture-menu-title">Table</h3>
+                                            <ul class="navbar__furniture-menu-list">
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Dining Room Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Folding Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Living Room Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Sofa Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        End Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Coffee Tables
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__furniture-menu-list-item">
+                                                    <a href="#" class="navbar__furniture-menu-list-item-link">
+                                                        Pedestal Tables
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                    <div class="grid__row-menu navbar__furniture-menu-banner">
+                                        <div class="navbar__furniture-menu-banner-wrapper">
+                                                <img src="./assets/img/Navbar/Navbar_furniture/furniture_banner_1.jpg" alt="" class="navbar__furniture-menu-banner-img">
+                                        </div>
+                                        <div class="navbar__furniture-menu-banner-wrapper">
+                                                <img src="./assets/img/Navbar/Navbar_furniture/furniture_banner_2.jpg" alt="" class="navbar__furniture-menu-banner-img">
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar__menu-item navbar__menu-item-c-tables">
+                            <a href="" class="navbar__menu-item-link">
+                                Coffee tables
+                            </a>
+                        </li>
+                        <li class="navbar__menu-item navbar__menu-item-sofas">
+                            <a href="" class="navbar__menu-item-link">
+                                Sofas
+                            </a>
+                        </li>
+                        <li class="navbar__menu-item navbar__menu-item-b-furniture">
+                            <a href="" class="navbar__menu-item-link">
+                                Bedroom furniture
+                            </a>
+                            <!-- Bedroom furniture Submenu -->
+                            <div class="navbar__b-furniture-menu">
+                                <div class="grid">
+                                    <div class="grid__row-menu">
+                                        <div class="grid__col-l-3">
+                                            <a href="#" class="navbar__b-furniture-menu-img-wrapper">
+                                                <img src="./assets/img/Navbar/Navbar_b_furniture/b_furniture_img1.png" alt="" class="navbar__b-furniture-menu-img">
+                                            </a>
+                                            <a href="#" class="navbar__b-furniture-menu-title">
+                                                Sofa
+                                            </a>
+                                            <span class="navbar__b-furniture-menu-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu ornare urna. Suspendisse a lobortis ex, at efficitur
+                                            </span>
+                                        </div>
+                                        <div class="grid__col-l-3">
+                                            <a href="#" class="navbar__b-furniture-menu-img-wrapper">
+                                                <img src="./assets/img/Navbar/Navbar_b_furniture/b_furniture_img2.jpg" alt="" class="navbar__b-furniture-menu-img">  
+                                            </a>
+                                            <a href="#" class="navbar__b-furniture-menu-title">
+                                                Chair
+                                            </a>
+                                            <span class="navbar__b-furniture-menu-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu ornare urna. Suspendisse a lobortis ex, at efficitur
+                                            </span>
+                                        </div>
+                                        <div class="grid__col-l-3">
+                                            <a href="#" class="navbar__b-furniture-menu-img-wrapper">
+                                                <img src="./assets/img/Navbar/Navbar_b_furniture/b_furniture_img3.jpg" alt="" class="navbar__b-furniture-menu-img"> 
+                                            </a>
+                                            <a href="#" class="navbar__b-furniture-menu-title">
+                                                Bed
+                                            </a>
+                                            <span class="navbar__b-furniture-menu-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu ornare urna. Suspendisse a lobortis ex, at efficitur
+                                            </span>
+                                        </div>
+                                        <div class="grid__col-l-3">
+                                            <a href="#" class="navbar__b-furniture-menu-img-wrapper">
+                                                <img src="./assets/img/Navbar/Navbar_b_furniture/b_furniture_img4.jpg" alt="" class="navbar__b-furniture-menu-img">
+                                            </a>
+                                            <a href="#" class="navbar__b-furniture-menu-title">
+                                                Furniture Chest
+                                            </a>
+                                            <span class="navbar__b-furniture-menu-body">
+                                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas eu ornare urna. Suspendisse a lobortis ex, at efficitur
+                                            </span>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar__menu-item navbar__menu-item-shop">
+                            <a href="" class="navbar__menu-item-link">
+                                Shop
+                            </a>
+                            <!-- Shop Submenu -->
+                            <div class="navbar__shop-menu">
+                                <div class="grid">
+                                    <div class="grid__row-menu">
+                                        <div class="grid__col-l-4">
+                                            <h3 class="navbar__shop-menu-title">Product types</h3>
+                                            <ul class="navbar__shop-menu-list">
+                                                <li class="navbar__shop-menu-list-item">
+                                                    <a href="" class="navbar__shop-menu-list-item-link">
+                                                        Simple Product
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shop-menu-list-item">
+                                                    <a href="" class="navbar__shop-menu-list-item-link">
+                                                        Grouped Product
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shop-menu-list-item">
+                                                    <a href="" class="navbar__shop-menu-list-item-link">
+                                                        Variable Product
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shop-menu-list-item">
+                                                    <a href="" class="navbar__shop-menu-list-item-link">
+                                                        Variable Product – Color
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shop-menu-list-item">
+                                                    <a href="" class="navbar__shop-menu-list-item-link">
+                                                        Variable Product – Image
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shop-menu-list-item">
+                                                    <a href="" class="navbar__shop-menu-list-item-link">
+                                                        External/Affiliate Product 
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="grid__col-l-4">
+                                            <h3 class="navbar__shop-menu-title">Shop pages</h3>
+                                            <ul class="navbar__shop-menu-list">
+                                                <li class="navbar__shop-menu-list-item">
+                                                    <a href="" class="navbar__shop-menu-list-item-link">
+                                                        Shopping Cart
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shop-menu-list-item">
+                                                    <a href="" class="navbar__shop-menu-list-item-link">
+                                                        Checkout
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shop-menu-list-item">
+                                                    <a href="" class="navbar__shop-menu-list-item-link">
+                                                        My Account
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shop-menu-list-item">
+                                                    <a href="" class="navbar__shop-menu-list-item-link">
+                                                        Wishlist
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shop-menu-list-item">
+                                                    <a href="" class="navbar__shop-menu-list-item-link">
+                                                        404
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shop-menu-list-item">
+                                                    <a href="" class="navbar__shop-menu-list-item-link">
+                                                        Product Tag
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="grid__col-l-4">
+                                            <h3 class="navbar__shop-menu-title">Shop shortcodes</h3>
+                                            <ul class="navbar__shop-menu-list">
+                                                <li class="navbar__shop-menu-list-item">
+                                                    <a href="" class="navbar__shop-menu-list-item-link">
+                                                        SNS Featured Categories
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shop-menu-list-item">
+                                                    <a href="" class="navbar__shop-menu-list-item-link">
+                                                        SNS Product Tabs
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shop-menu-list-item">
+                                                    <a href="" class="navbar__shop-menu-list-item-link">
+                                                        SNS Products
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar__menu-item navbar__menu-item-blog">
+                            <a href="" class="navbar__menu-item-link">
+                                Blog
+                            </a>
+                            <!-- Blog Submenu -->
+                            <ul class="navbar__blog-menu">
+                                <li class="navbar__blog-menu-item">
+                                    <a href="" class="navbar__blog-menu-item-link">
+                                        Blog FullWidth
+                                    </a>
+                                </li>
+                                <li class="navbar__blog-menu-item">
+                                    <a href="" class="navbar__blog-menu-item-link">
+                                        Blog FullWidth 2 Columns
+                                    </a>
+                                </li>
+                                <li class="navbar__blog-menu-item">
+                                    <a href="" class="navbar__blog-menu-item-link">
+                                        Blog FullWidth 3 Columns
+                                    </a>
+                                </li>
+                                <li class="navbar__blog-menu-item">
+                                    <a href="" class="navbar__blog-menu-item-link">
+                                        Blog Masonry
+                                    </a>
+                                </li>
+                                <li class="navbar__blog-menu-item">
+                                    <a href="" class="navbar__blog-menu-item-link">
+                                        Blog Left Sidebar
+                                    </a>
+                                </li>
+                                <li class="navbar__blog-menu-item">
+                                    <a href="" class="navbar__blog-menu-item-link">
+                                        Blog Right Sidebar
+                                    </a>
+                                </li>
+                                <li class="navbar__blog-menu-item navbar__blog-post">
+                                    <a href="" class="navbar__blog-menu-item-link">
+                                        Single Post
+                                        <i class="fas fa-long-arrow-alt-right"></i>
+                                    </a>
+                                    <!-- Post Submenu -->
+                                    <ul class="navbar__post-menu">
+                                        <li class="navbar__post-menu-item">
+                                            <a href="" class="navbar__post-menu-item-link">
+                                                Standard Post
+                                            </a>
+                                        </li>
+                                        <li class="navbar__post-menu-item">
+                                            <a href="" class="navbar__post-menu-item-link">
+                                                Post Format – Gallery
+                                            </a>
+                                        </li>
+                                        <li class="navbar__post-menu-item">
+                                            <a href="" class="navbar__post-menu-item-link">
+                                                Post Format – Quote
+                                            </a>
+                                        </li>
+                                        <li class="navbar__post-menu-item">
+                                            <a href="" class="navbar__post-menu-item-link">
+                                                Post Format – Video
+                                            </a>
+                                        </li>
+                                        <li class="navbar__post-menu-item">
+                                            <a href="" class="navbar__post-menu-item-link">
+                                                Post Format – Link 
+                                            </a>
+                                        </li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar__menu-item navbar__menu-item-shortcodes">
+                            <a href="" class="navbar__menu-item-link">
+                                Shortcodes
+                            </a>
+                            <!-- Shortcodes Submenu -->
+                            <div class="navbar__shortcodes-menu">
+                                <div class="grid">
+                                    <div class="grid__row-menu">
+                                        <div class="grid__col-l-4">
+                                            <h3 class="navbar__shortcodes-menu-title">Shortcodes</h3>
+                                            <ul class="navbar__shortcodes-menu-list">
+                                                <li class="navbar__shortcodes-menu-list-item">
+                                                    <a href="#" class="navbar__shortcodes-menu-list-item-link">
+                                                        Accordions
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shortcodes-menu-list-item">
+                                                    <a href="#" class="navbar__shortcodes-menu-list-item-link">
+                                                        Custom Heading
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shortcodes-menu-list-item">
+                                                    <a href="#" class="navbar__shortcodes-menu-list-item-link">
+                                                        Messages
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shortcodes-menu-list-item">
+                                                    <a href="#" class="navbar__shortcodes-menu-list-item-link">
+                                                        Progress Bar
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shortcodes-menu-list-item">
+                                                    <a href="#" class="navbar__shortcodes-menu-list-item-link">
+                                                        SNS Counter
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shortcodes-menu-list-item">
+                                                    <a href="#" class="navbar__shortcodes-menu-list-item-link">
+                                                        SNS Custom Box
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shortcodes-menu-list-item">
+                                                    <a href="#" class="navbar__shortcodes-menu-list-item-link">
+                                                        SNS Featured Categories
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="grid__col-l-4">
+                                            <h3 class="navbar__shortcodes-menu-title">Shortcodes</h3>
+                                            <ul class="navbar__shortcodes-menu-list">
+                                                <li class="navbar__shortcodes-menu-list-item">
+                                                    <a href="#" class="navbar__shortcodes-menu-list-item-link">
+                                                        SNS Latest Posts
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shortcodes-menu-list-item">
+                                                    <a href="#" class="navbar__shortcodes-menu-list-item-link">
+                                                        SNS Member
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shortcodes-menu-list-item">
+                                                    <a href="#" class="navbar__shortcodes-menu-list-item-link">
+                                                        SNS Our Brand
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shortcodes-menu-list-item">
+                                                    <a href="#" class="navbar__shortcodes-menu-list-item-link">
+                                                        SNS Product Tabs
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shortcodes-menu-list-item">
+                                                    <a href="#" class="navbar__shortcodes-menu-list-item-link">
+                                                        SNS Products
+                                                    </a>
+                                                </li>
+                                                <li class="navbar__shortcodes-menu-list-item">
+                                                    <a href="#" class="navbar__shortcodes-menu-list-item-link">
+                                                        SNS Testimonials
+                                                    </a>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <div class="grid__col-l-4">
+                                            <a href="#" class="navbar__shortcodes-menu-banner">
+                                                <img src="./assets/img/Navbar/Navbar_shortcodes/vc-short.png" alt="" class="navbar__shortcodes-menu-banner-img">
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="navbar__menu-item navbar__menu-item-contact">
+                            <a href="" class="navbar__menu-item-link">
+                                Contact us
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="navbar__product">
+                        <div class="navbar__product-search">
+                            <i class="fas fa-search navbar__product-search-img"></i>
+                            <!-- Search bar -->
+                            <div class="navbar__search-bar">
+                                <input type="text" class="navbar__search-bar-input" placeholder="Search entire store here...">
+                                <a href="" class="navbar__search-bar-confirm">
+                                    <span>Search</span>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="navbar__product-item">
+                            <i class="fas fa-shopping-cart navbar__product-item-cart"></i>
+                            <span class="navbar__product-item--current">5</span>
+                            <span class="navbar__product-item-span">( items )</span>
+                            <!-- Cart box -->
+                            <div class="navbar__cart-box">
+                                <!-- No item status: navbar__cart-box--no-item -->
+                                <!-- Cart box: no item -->
+                                <span class="navbar__cart-box--no-item-msg">No products in the cart.</span>
+                                <!-- Cart box: list item -->
+                                <div class="navbar__cart-box-wrapper">
+                                    <ul class="navbar__cart-box-list">
+                                        <li class="navbar__cart-box-list-item">
+                                            <a href="#" class="navbar__cart-box-list-item-img-link">
+                                                <img src="./assets/img/Items/17-215x260.jpg" alt="" class="navbar__cart-box-list-item-img-link-img">
+                                            </a>
+                                            <div class="navbar__cart-box-list-item-text">
+                                                <a href="" class="navbar__cart-box-list-item-text-title">Modular Modern</a>
+                                                <div class="navbar__cart-box-list-item-text-price">
+                                                    <span class="navbar__cart-box-list-item-text-price-quantity">1</span>
+                                                    × 
+                                                    <span class="navbar__cart-box-list-item-text-price-number">$ 7.00</span>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="navbar__cart-box-list-item-close">
+                                                <i class="fas fa-times-circle navbar__cart-box-list-item-close-btn"></i>
+                                            </a>
+                                        </li>
+                                        <li class="navbar__cart-box-list-item">
+                                            <a href="#" class="navbar__cart-box-list-item-img-link">
+                                                <img src="./assets/img/Items/26-215x260.jpg" alt="" class="navbar__cart-box-list-item-img-link-img">
+                                            </a>
+                                            <div class="navbar__cart-box-list-item-text">
+                                                <a href="" class="navbar__cart-box-list-item-text-title">Modular Modern</a>
+                                                <div class="navbar__cart-box-list-item-text-price">
+                                                    <span class="navbar__cart-box-list-item-text-price-quantity">1</span>
+                                                    × 
+                                                    <span class="navbar__cart-box-list-item-text-price-number">$ 10.00</span>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="navbar__cart-box-list-item-close">
+                                                <i class="fas fa-times-circle navbar__cart-box-list-item-close-btn"></i>
+                                            </a>
+                                        </li>
+                                        <li class="navbar__cart-box-list-item">
+                                            <a href="#" class="navbar__cart-box-list-item-img-link">
+                                                <img src="./assets/img/Items/10-215x260.jpg" alt="" class="navbar__cart-box-list-item-img-link-img">
+                                            </a>
+                                            <div class="navbar__cart-box-list-item-text">
+                                                <a href="" class="navbar__cart-box-list-item-text-title">Modular Modern</a>
+                                                <div class="navbar__cart-box-list-item-text-price">
+                                                    <span class="navbar__cart-box-list-item-text-price-quantity">1</span>
+                                                    × 
+                                                    <span class="navbar__cart-box-list-item-text-price-number">$ 2.00</span>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="navbar__cart-box-list-item-close">
+                                                <i class="fas fa-times-circle navbar__cart-box-list-item-close-btn"></i>
+                                            </a>
+                                        </li>
+                                        <li class="navbar__cart-box-list-item">
+                                            <a href="#" class="navbar__cart-box-list-item-img-link">
+                                                <img src="./assets/img/Items/24-215x260.jpg" alt="" class="navbar__cart-box-list-item-img-link-img">
+                                            </a>
+                                            <div class="navbar__cart-box-list-item-text">
+                                                <a href="" class="navbar__cart-box-list-item-text-title">Modular Modern</a>
+                                                <div class="navbar__cart-box-list-item-text-price">
+                                                    <span class="navbar__cart-box-list-item-text-price-quantity">1</span>
+                                                    × 
+                                                    <span class="navbar__cart-box-list-item-text-price-number">$ 13.00</span>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="navbar__cart-box-list-item-close">
+                                                <i class="fas fa-times-circle navbar__cart-box-list-item-close-btn"></i>
+                                            </a>
+                                        </li>
+                                        <li class="navbar__cart-box-list-item">
+                                            <a href="#" class="navbar__cart-box-list-item-img-link">
+                                                <img src="./assets/img/Items/3-215x260.jpg" alt="" class="navbar__cart-box-list-item-img-link-img">
+                                            </a>
+                                            <div class="navbar__cart-box-list-item-text">
+                                                <a href="" class="navbar__cart-box-list-item-text-title">Modular Modern</a>
+                                                <div class="navbar__cart-box-list-item-text-price">
+                                                    <span class="navbar__cart-box-list-item-text-price-quantity">1</span>
+                                                    × 
+                                                    <span class="navbar__cart-box-list-item-text-price-number">$ 14.00</span>
+                                                </div>
+                                            </div>
+                                            <a href="#" class="navbar__cart-box-list-item-close">
+                                                <i class="fas fa-times-circle navbar__cart-box-list-item-close-btn"></i>
+                                            </a>
+                                        </li>
+                                    </ul>
+                                    <div class="navbar__cart-box-total">
+                                        <span class="navbar__cart-box-total-title">Total:</span>
+                                        <span class="navbar__cart-box-total-price">$ 46.00</span>
+                                    </div>
+                                    <div class="navbar__cart-box-btn">
+                                            <a href="#" class="navbar__cart-box-btn--go-to-cart">Go to cart</a>
+                                            <a href="#" class="navbar__cart-box-btn--check-out">Checkout</a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="main">
+            <div id="slider">
+                <div class="grid">
+                    <div class="grid__row-menu">
+                        <div class="grid__col-l-6 slider__spinner">
+                            <img src="./assets/img/Slider/Slider_spinner/01.png" alt="" class="slider__spinner-img">
+                            <div class="slider__spinner-btn">
+                                <div class="slider__spinner-btn-bullet slider__spinner-btn-bullet--current"></div>
+                                <div class="slider__spinner-btn-bullet"></div>
+                                <div class="slider__spinner-btn-bullet"></div>
+                                <div class="slider__spinner-btn-bullet"></div>
+                            </div>
+                        </div>
+                        <div class="grid__col-l-6 slider__banner">
+                            <div class="grid__row-menu">
+                                <div class="grid__col-l-12">
+                                    <a href="#" class="slider__banner-large-link">
+                                        <img src="./assets/img/Slider/Slider_banner/banner-large1.png" alt="" class="slider__banner-large-img">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="grid__row-menu">
+                                <div class="grid__col-l-6">
+                                    <a href="#" class="slider__banner-medium-link">
+                                        <img src="./assets/img/Slider/Slider_banner/banner1-300x286.jpg" alt="" class="slider__banner-medium-img">
+                                    </a>
+                                </div>
+                                <div class="grid__col-l-6">
+                                    <a href="#" class="slider__banner-medium-link">
+                                        <img src="./assets/img/Slider/Slider_banner/banner2-300x286.jpg" alt="" class="slider__banner-medium-img">
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="best-feature">
+                <div class="grid">
+                    <!-- Best feature: Navbar -->
+                    <ul class="best-feature__navbar">
+                        <li class="best-feature__navbar-item best-feature__navbar-item--current">
+                            <a href="" title="Latest Products" class="best-feature__navbar-item-link">
+                                <span>Latest</span>
+                            </a>
+                        </li>
+                        <li class="best-feature__navbar-item">
+                            <a href="" title="BestSeller Products" class="best-feature__navbar-item-link">
+                                <span>Best seller</span>
+                            </a>
+                        </li>
+                        <li class="best-feature__navbar-item">
+                            <a href="" title="Featured Products" class="best-feature__navbar-item-link">
+                                <span>Featured</span>
+                            </a>
+                        </li>
+                    </ul>
+                    <!-- Best feature: Product -->
+                    <div class="best-feature__product">
+                        <div class="grid__row-product">
+                            <div class="grid__col-s-2-4">
+                                <div class="best-feature__product-wrapper">
+                                    <a href="#" class="best-feature-product-link">         
+                                        <img src="./assets/img/Best_feature/Best_feature_product/17-215x260.jpg" alt="" class="best-feature__product-link-img">
+                                    </a>
+                                    <span class="best-feature__product-sale">Sale!</span>
+                                    <div class="best-feature__product-btn-list">
+                                        <div class="best-feature__product-btn-row-1">
+                                            <a href="#" class="best-feature__product-btn--atc">
+                                                <i class="fas fa-shopping-cart"></i>
+                                                <span>Add to cart</span>
+                                            </a>
+                                        </div>
+                                        <div class="best-feature__product-btn-row-2">
+                                            <a href="#" class="best-feature__product-btn--wish-list">
+                                                <i class="fas fa-heart"></i>
+                                            </a>
+                                            <a href="#" class="best-feature__product-btn--compare">
+                                                <i class="fas fa-random"></i>
+                                            </a>
+                                            <a href="#" class="best-feature__product-btn--q-view">
+                                                <i class="far fa-eye"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="best-feature__product-title">
+                                        <a href="#" class="best-feature__product-title-link">
+                                            <span>Modular Modern</span>
+                                        </a>
+                                    </div>
+                                    <div class="best-feature__product-price">
+                                        <span class="best-feature__product-price--old">$ 9.00</span>
+                                        <span class="best-feature__product-price--current">$ 7.00</span>
+                                    </div>
+                                    <div class="best-feature__product-rating">
+                                        <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                        <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                        <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                        <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                        <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__col-s-2-4">
+                                <div class="best-feature__product-wrapper">
+                                    <a href="#" class="best-feature__product-link">
+                                        <img src="./assets/img/Best_feature/Best_feature_product/26-215x260.jpg" alt="" class="best-feature__product-link-img">
+                                    </a>
+                                    <!-- <span class="best-feature__product-sale">Sale!</span> -->
+                                    <div class="best-feature__product-btn-list">
+                                        <div class="best-feature__product-btn-row-1">
+                                            <a href="#" class="best-feature__product-btn--atc">
+                                                <i class="fas fa-shopping-cart"></i>
+                                                <span>Add to cart</span>
+                                            </a>
+                                        </div>
+                                        <div class="best-feature__product-btn-row-2">
+                                            <a href="#" class="best-feature__product-btn--wish-list">
+                                                <i class="fas fa-heart"></i>
+                                            </a>
+                                            <a href="#" class="best-feature__product-btn--compare">
+                                                <i class="fas fa-random"></i>
+                                            </a>
+                                            <a href="#" class="best-feature__product-btn--q-view">
+                                                <i class="far fa-eye"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="best-feature__product-title">
+                                        <a href="#" class="best-feature__product-title-link">
+                                            <span>Modular Modern</span>
+                                        </a>
+                                    </div>
+                                    <div class="best-feature__product-price">
+                                        <span class="best-feature__product-price--old"></span>
+                                        <span class="best-feature__product-price--current">$ 10.00</span>
+                                    </div>
+                                    <div class="best-feature__product-rating">
+                                        <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                        <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                        <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                        <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                        <div class="best-feature__product-rating-img">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__col-s-2-4">
+                                <div class="best-feature__product-wrapper">
+                                    <a href="#" class="best-feature__product-link">
+                                        <img src="./assets/img/Best_feature/Best_feature_product/10-215x260.jpg" alt="" class="best-feature__product-link-img">
+                                    </a>
+                                    <span class="best-feature__product-sale">Sale!</span>
+                                    <div class="best-feature__product-btn-list">
+                                        <div class="best-feature__product-btn-row-1">
+                                            <a href="#" class="best-feature__product-btn--atc">
+                                                <i class="fas fa-shopping-cart"></i>
+                                                <span>Add to cart</span>
+                                            </a>
+                                        </div>
+                                        <div class="best-feature__product-btn-row-2">
+                                            <a href="#" class="best-feature__product-btn--wish-list">
+                                                <i class="fas fa-heart"></i>
+                                            </a>
+                                            <a href="#" class="best-feature__product-btn--compare">
+                                                <i class="fas fa-random"></i>
+                                            </a>
+                                            <a href="#" class="best-feature__product-btn--q-view">
+                                                <i class="far fa-eye"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="best-feature__product-title">
+                                        <a href="#" class="best-feature__product-title-link">
+                                            <span>Modular Modern</span>
+                                        </a>
+                                    </div>
+                                    <div class="best-feature__product-price">
+                                        <span class="best-feature__product-price--old">$ 3.00</span>
+                                        <span class="best-feature__product-price--current">$ 2.00</span>
+                                    </div>
+                                    <div class="best-feature__product-rating">
+                                        <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                        <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                        <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                        <div class="best-feature__product-rating-img">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                        <div class="best-feature__product-rating-img">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__col-s-2-4">
+                                <div class="best-feature__product-wrapper">
+                                    <a href="#" class="best-feature__product-link">
+                                        <img src="./assets/img/Best_feature/Best_feature_product/24-215x260.jpg" alt="" class="best-feature__product-link-img">
+                                    </a>
+                                    <!-- <span class="best-feature__product-sale">Sale!</span> -->
+                                    <div class="best-feature__product-btn-list">
+                                        <div class="best-feature__product-btn-row-1">
+                                            <a href="#" class="best-feature__product-btn--atc">
+                                                <i class="fas fa-shopping-cart"></i>
+                                                <span>Add to cart</span>
+                                            </a>
+                                        </div>
+                                        <div class="best-feature__product-btn-row-2">
+                                            <a href="#" class="best-feature__product-btn--wish-list">
+                                                <i class="fas fa-heart"></i>
+                                            </a>
+                                            <a href="#" class="best-feature__product-btn--compare">
+                                                <i class="fas fa-random"></i>
+                                            </a>
+                                            <a href="#" class="best-feature__product-btn--q-view">
+                                                <i class="far fa-eye"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="best-feature__product-title">
+                                        <a href="#" class="best-feature__product-title-link">
+                                            <span>Modular Modern</span>
+                                        </a>
+                                    </div>
+                                    <div class="best-feature__product-price">
+                                        <span class="best-feature__product-price--old"></span>
+                                        <span class="best-feature__product-price--current">$ 13.00</span>
+                                    </div>
+                                    <div class="best-feature__product-rating">
+                                        <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                        <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                        <div class="best-feature__product-rating-img">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                        <div class="best-feature__product-rating-img">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                        <div class="best-feature__product-rating-img">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__col-s-2-4">
+                                <div class="best-feature__product-wrapper">
+                                    <a href="#" class="best-feature__product-link">
+                                        <img src="./assets/img/Best_feature/Best_feature_product/3-215x260.jpg" alt="" class="best-feature__product-link-img">
+                                    </a>
+                                    <!-- <span class="best-feature__product-sale">Sale!</span> -->
+                                    <div class="best-feature__product-btn-list">
+                                        <div class="best-feature__product-btn-row-1">
+                                            <a href="#" class="best-feature__product-btn--atc">
+                                                <i class="fas fa-shopping-cart"></i>
+                                                <span>Add to cart</span>
+                                            </a>
+                                        </div>
+                                        <div class="best-feature__product-btn-row-2">
+                                            <a href="#" class="best-feature__product-btn--wish-list">
+                                                <i class="fas fa-heart"></i>
+                                            </a>
+                                            <a href="#" class="best-feature__product-btn--compare">
+                                                <i class="fas fa-random"></i>
+                                            </a>
+                                            <a href="#" class="best-feature__product-btn--q-view">
+                                                <i class="far fa-eye"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                    <div class="best-feature__product-title">
+                                        <a href="#" class="best-feature__product-title-link">
+                                            <span>Modular Modern</span>
+                                        </a>
+                                    </div>
+                                    <div class="best-feature__product-price">
+                                        <span class="best-feature__product-price--old"></span>
+                                        <span class="best-feature__product-price--current">$ 14.00</span>
+                                    </div>
+                                    <div class="best-feature__product-rating">
+                                        <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                        <div class="best-feature__product-rating-img">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                        <div class="best-feature__product-rating-img">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                        <div class="best-feature__product-rating-img">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                        <div class="best-feature__product-rating-img">
+                                            <i class="far fa-star best-feature__product-star"></i>
+                                            <i class="fas fa-star best-feature__product-star-full"></i>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="best-feature__product-footer">
+                            <a href="#" class="best-feature__product-btn--load">Load more items</a>
+                        </div>
+                    </div>
+                </div>                
+            </div>
+            <div id="new-product">
+                <div class="grid">
+                    <div class="new-product__wrapper">
+                        <div class="grid__row-product">
+                            <div class="grid__col-l-6 new-product__img-holder">
+                                <img src="./assets/img/New_product/call-to-action.jpg" alt="" class="new-product__img">
+                            </div>
+                            <div class="grid__col-l-6">
+                                <div class="new-product__info">
+                                    <h2 class="new-product__info-title">Axel - Stool</h2>
+                                    <h4 class="new-product__info-sub-title">New products</h4>
+                                    <p class="new-product__info-text">
+                                        Lorem Ipsum has been the industry’s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries,
+                                    </p>
+                                    <a href="" class="new-product__info-buy-btn">Buy now</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="suggest">
+                <div class="grid">
+                    <h3 class="suggest__heading">Suggest collection</h3>
+                    <div class="suggest__menu">
+                        <div class="grid__row-product">
+                            <div class="grid__col-s-1-33 suggest__menu-wrapper suggest__menu-wrapper--active">
+                                <a href="" class="suggest__menu-link">
+                                    <div class="suggest__menu-link-img-holder">
+                                        <img src="./assets/img/Suggest_menu/office-chair.jpg" alt="" class="suggest__menu-link-img">
+                                    </div>
+                                    <span class="suggest__menu-link-title">Office chair</span>
+                                </a>
+                            </div>
+                            <div class="grid__col-s-1-33 suggest__menu-wrapper">
+                                <a href="" class="suggest__menu-link">
+                                    <div class="suggest__menu-link-img-holder">
+                                        <img src="./assets/img/Suggest_menu/sofa.png" alt="" class="suggest__menu-link-img">
+                                    </div>
+                                    <span class="suggest__menu-link-title">Sofas</span>
+                                </a>
+                            </div>
+                            <div class="grid__col-s-1-33 suggest__menu-wrapper">
+                                <a href="" class="suggest__menu-link">
+                                    <div class="suggest__menu-link-img-holder">
+                                        <img src="./assets/img/Suggest_menu/good-chair.jpg" alt="" class="suggest__menu-link-img">
+                                    </div>
+                                    <span class="suggest__menu-link-title">Good chair</span>
+                                </a>
+                            </div>
+                            <div class="grid__col-s-1-33 suggest__menu-wrapper">
+                                <a href="" class="suggest__menu-link">
+                                    <div class="suggest__menu-link-img-holder">
+                                        <img src="./assets/img/Suggest_menu/coffee-chair.jpg" alt="" class="suggest__menu-link-img">
+                                    </div>
+                                    <span class="suggest__menu-link-title">Coffee chair</span>
+                                </a>
+                            </div>
+                            <div class="grid__col-s-1-33 suggest__menu-wrapper">
+                                <a href="" class="suggest__menu-link">
+                                    <div class="suggest__menu-link-img-holder">
+                                        <img src="./assets/img/Suggest_menu/outdoor-table.jpg" alt="" class="suggest__menu-link-img">
+                                    </div>
+                                    <span class="suggest__menu-link-title">Ourdoor table</span>
+                                </a>
+                            </div>
+                            <div class="grid__col-s-1-33 suggest__menu-wrapper">
+                                <a href="" class="suggest__menu-link">
+                                    <div class="suggest__menu-link-img-holder">
+                                        <img src="./assets/img/Suggest_menu/ipsum-chair.jpg" alt="" class="suggest__menu-link-img">
+                                    </div>
+                                    <span class="suggest__menu-link-title">Ipsum Chair</span>
+                                </a>
+                            </div>
+                            <div class="grid__col-s-1-33 suggest__menu-wrapper">
+                                <a href="" class="suggest__menu-link">
+                                    <div class="suggest__menu-link-img-holder">
+                                        <img src="./assets/img/Suggest_menu/wood-chair.jpg" alt="" class="suggest__menu-link-img">
+                                    </div>
+                                    <span class="suggest__menu-link-title">Wood Chair</span>
+                                </a>
+                            </div>
+                            <div class="grid__col-s-1-33 suggest__menu-wrapper">
+                                <a href="" class="suggest__menu-link">
+                                    <div class="suggest__menu-link-img-holder">
+                                        <img src="./assets/img/Suggest_menu/coffee-table.jpg" alt="" class="suggest__menu-link-img">
+                                    </div>
+                                    <span class="suggest__menu-link-title">Coffee Tables</span>
+                                </a>
+                            </div>
+                            <div class="grid__col-s-1-33 suggest__menu-wrapper">
+                                <a href="" class="suggest__menu-link">
+                                    <div class="suggest__menu-link-img-holder">
+                                        <img src="./assets/img/Suggest_menu//living-room.jpg" alt="" class="suggest__menu-link-img">
+                                    </div>
+                                    <span class="suggest__menu-link-title">Living Room</span>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Suggest Products (Best feature: Product COPY) -->
+                    <div class="suggest__product">
+                        <div class="suggest__product-slider">
+                            <div class="suggest__product-slider-btn">
+                                <i class="fas fa-long-arrow-alt-left suggest__product-slider-btn-img"></i>
+                            </div>
+                            <div class="suggest__product-slider-btn">
+                                <i class="fas fa-long-arrow-alt-right suggest__product-slider-btn-img"></i>
+                            </div>
+                        </div>
+                        <div class="best-feature__product">
+                            <div class="grid__row-product">
+                                <div class="grid__col-s-2-4">
+                                    <div class="best-feature__product-wrapper">
+                                        <a href="#" class="best-feature-product-link">         
+                                            <img src="./assets/img/Best_feature/Best_feature_product/17-215x260.jpg" alt="" class="best-feature__product-link-img">
+                                        </a>
+                                        <!-- <span class="best-feature__product-sale">Sale!</span> -->
+                                        <div class="best-feature__product-btn-list">
+                                            <div class="best-feature__product-btn-row-1">
+                                                <a href="#" class="best-feature__product-btn--atc">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                    <span>Add to cart</span>
+                                                </a>
+                                            </div>
+                                            <div class="best-feature__product-btn-row-2">
+                                                <a href="#" class="best-feature__product-btn--wish-list">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                                <a href="#" class="best-feature__product-btn--compare">
+                                                    <i class="fas fa-random"></i>
+                                                </a>
+                                                <a href="#" class="best-feature__product-btn--q-view">
+                                                    <i class="far fa-eye"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="best-feature__product-title">
+                                            <a href="#" class="best-feature__product-title-link">
+                                                <span>Modular Modern</span>
+                                            </a>
+                                        </div>
+                                        <div class="best-feature__product-price">
+                                            <span class="best-feature__product-price--old"></span>
+                                            <span class="best-feature__product-price--current">$ 600.00</span>
+                                        </div>
+                                        <div class="best-feature__product-rating">
+                                            <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                            <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                            <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                            <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                            <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__col-s-2-4">
+                                    <div class="best-feature__product-wrapper">
+                                        <a href="#" class="best-feature__product-link">
+                                            <img src="./assets/img/Best_feature/Best_feature_product/26-215x260.jpg" alt="" class="best-feature__product-link-img">
+                                        </a>
+                                        <span class="best-feature__product-sale">Sale!</span>
+                                        <div class="best-feature__product-btn-list">
+                                            <div class="best-feature__product-btn-row-1">
+                                                <a href="#" class="best-feature__product-btn--atc">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                    <span>Add to cart</span>
+                                                </a>
+                                            </div>
+                                            <div class="best-feature__product-btn-row-2">
+                                                <a href="#" class="best-feature__product-btn--wish-list">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                                <a href="#" class="best-feature__product-btn--compare">
+                                                    <i class="fas fa-random"></i>
+                                                </a>
+                                                <a href="#" class="best-feature__product-btn--q-view">
+                                                    <i class="far fa-eye"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="best-feature__product-title">
+                                            <a href="#" class="best-feature__product-title-link">
+                                                <span>Modular Modern</span>
+                                            </a>
+                                        </div>
+                                        <div class="best-feature__product-price">
+                                            <span class="best-feature__product-price--old">$ 3.00</span>
+                                            <span class="best-feature__product-price--current">$ 2.00</span>
+                                        </div>
+                                        <div class="best-feature__product-rating">
+                                            <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                            <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                            <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                            <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                            <div class="best-feature__product-rating-img">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__col-s-2-4">
+                                    <div class="best-feature__product-wrapper">
+                                        <a href="#" class="best-feature__product-link">
+                                            <img src="./assets/img/Best_feature/Best_feature_product/10-215x260.jpg" alt="" class="best-feature__product-link-img">
+                                        </a>
+                                        <span class="best-feature__product-sale">Sale!</span>
+                                        <div class="best-feature__product-btn-list">
+                                            <div class="best-feature__product-btn-row-1">
+                                                <a href="#" class="best-feature__product-btn--atc">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                    <span>Add to cart</span>
+                                                </a>
+                                            </div>
+                                            <div class="best-feature__product-btn-row-2">
+                                                <a href="#" class="best-feature__product-btn--wish-list">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                                <a href="#" class="best-feature__product-btn--compare">
+                                                    <i class="fas fa-random"></i>
+                                                </a>
+                                                <a href="#" class="best-feature__product-btn--q-view">
+                                                    <i class="far fa-eye"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="best-feature__product-title">
+                                            <a href="#" class="best-feature__product-title-link">
+                                                <span>External/Affiliate Products</span>
+                                            </a>
+                                        </div>
+                                        <div class="best-feature__product-price">
+                                            <span class="best-feature__product-price--old">$ 9.00</span>
+                                            <span class="best-feature__product-price--current">$ 8.00</span>
+                                        </div>
+                                        <div class="best-feature__product-rating">
+                                            <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                            <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                            <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                            <div class="best-feature__product-rating-img">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                            <div class="best-feature__product-rating-img">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__col-s-2-4">
+                                    <div class="best-feature__product-wrapper">
+                                        <a href="#" class="best-feature__product-link">
+                                            <img src="./assets/img/Best_feature/Best_feature_product/24-215x260.jpg" alt="" class="best-feature__product-link-img">
+                                        </a>
+                                        <!-- <span class="best-feature__product-sale">Sale!</span> -->
+                                        <div class="best-feature__product-btn-list">
+                                            <div class="best-feature__product-btn-row-1">
+                                                <a href="#" class="best-feature__product-btn--atc">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                    <span>Add to cart</span>
+                                                </a>
+                                            </div>
+                                            <div class="best-feature__product-btn-row-2">
+                                                <a href="#" class="best-feature__product-btn--wish-list">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                                <a href="#" class="best-feature__product-btn--compare">
+                                                    <i class="fas fa-random"></i>
+                                                </a>
+                                                <a href="#" class="best-feature__product-btn--q-view">
+                                                    <i class="far fa-eye"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="best-feature__product-title">
+                                            <a href="#" class="best-feature__product-title-link">
+                                                <span>Variable Products</span>
+                                            </a>
+                                        </div>
+                                        <div class="best-feature__product-price">
+                                            <span class="best-feature__product-price--old"></span>
+                                            <span class="best-feature__product-price--current">$ 7.00 - $ 9.00</span>
+                                        </div>
+                                        <div class="best-feature__product-rating">
+                                            <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                            <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                            <div class="best-feature__product-rating-img">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                            <div class="best-feature__product-rating-img">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                            <div class="best-feature__product-rating-img">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <div class="grid__col-s-2-4">
+                                    <div class="best-feature__product-wrapper">
+                                        <a href="#" class="best-feature__product-link">
+                                            <img src="./assets/img/Best_feature/Best_feature_product/3-215x260.jpg" alt="" class="best-feature__product-link-img">
+                                        </a>
+                                        <!-- <span class="best-feature__product-sale">Sale!</span> -->
+                                        <div class="best-feature__product-btn-list">
+                                            <div class="best-feature__product-btn-row-1">
+                                                <a href="#" class="best-feature__product-btn--atc">
+                                                    <i class="fas fa-shopping-cart"></i>
+                                                    <span>Add to cart</span>
+                                                </a>
+                                            </div>
+                                            <div class="best-feature__product-btn-row-2">
+                                                <a href="#" class="best-feature__product-btn--wish-list">
+                                                    <i class="fas fa-heart"></i>
+                                                </a>
+                                                <a href="#" class="best-feature__product-btn--compare">
+                                                    <i class="fas fa-random"></i>
+                                                </a>
+                                                <a href="#" class="best-feature__product-btn--q-view">
+                                                    <i class="far fa-eye"></i>
+                                                </a>
+                                            </div>
+                                        </div>
+                                        <div class="best-feature__product-title">
+                                            <a href="#" class="best-feature__product-title-link">
+                                                <span>Modular Modern</span>
+                                            </a>
+                                        </div>
+                                        <div class="best-feature__product-price">
+                                            <span class="best-feature__product-price--old"></span>
+                                            <span class="best-feature__product-price--current">$ 9.00</span>
+                                        </div>
+                                        <div class="best-feature__product-rating">
+                                            <div class="best-feature__product-rating-img best-feature__product-rating-img--rated">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                            <div class="best-feature__product-rating-img">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                            <div class="best-feature__product-rating-img">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                            <div class="best-feature__product-rating-img">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                            <div class="best-feature__product-rating-img">
+                                                <i class="far fa-star best-feature__product-star"></i>
+                                                <i class="fas fa-star best-feature__product-star-full"></i>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="sale-banner">
+                <div class="grid">
+                    <div class="grid__row-menu">
+                        <div class="grid__col-l-6">
+                            <a href="" class="sale-banner__link">
+                                <img src="./assets/img/Sales_Banner/banner1.jpg" alt="" class="sale-banner__link-img">
+                            </a>
+                        </div>
+                        <div class="grid__col-l-3">
+                            <a href="" class="sale-banner__link">
+                                <img src="./assets/img/Sales_Banner/banner2.jpg" alt="" class="sale-banner__link-img">
+                            </a>
+                        </div>
+                        <div class="grid__col-l-3">
+                            <a href="" class="sale-banner__link">
+                                <img src="./assets/img/Sales_Banner/banner3.jpg" alt="" class="sale-banner__link-img">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="most-viewed">
+                <div class="grid">
+                    <div class="most-viewed__navbar">
+                        <h2 class="most-viewed__navbar-heading">Most viewed</h2>
+                        <div class="most-viewed__navbar-btn-wrapper">
+                            <div class="most-viewed__navbar-btn most-viewed__navbar-btn--left">
+                                <i class="fas fa-long-arrow-alt-left most-viewed__navbar-btn-img"></i>
+                            </div>
+                            <div class="most-viewed__navbar-btn most-viewed__navbar-btn--right">
+                                <i class="fas fa-long-arrow-alt-right most-viewed__navbar-btn-img"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="most-viewed__product">
+                        <div class="grid__row-product">
+                            <div class="grid__col-s-3">
+                                <div class="most-viewed__product-wrapper">
+                                    <div class="grid__row-product">
+                                        <div class="grid__col-s-5-4">
+                                            <a href="" class="most-viewed__product-img-link">
+                                                <img src="./assets/img/Most_viewed/Mosted_viewed_product/10-215x260.jpg" alt="" class="most-viewed__product-img">
+                                            </a>
+                                        </div>
+                                        <div class="grid__col-s-6-6">
+                                            <div class="most-viewed__product-title">
+                                                <a href="#" class="most-viewed__product-title-link">
+                                                    <span>Modular Modern</span>
+                                                </a>
+                                            </div>
+                                            <div class="most-viewed__product-price">
+                                                <span class="most-viewed__product-price--old">$ 3.00</span>
+                                                <span class="most-viewed__product-price--current">$ 2.00</span>
+                                            </div>
+                                            <div class="most-viewed__product-rating">
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                            </div>
+                                            <a href="" class="most-viewed__product-btn">
+                                                <i class="fas fa-shopping-cart"></i>
+                                                <span>Add to cart</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__col-s-3">
+                                <div class="most-viewed__product-wrapper">
+                                    <div class="grid__row-product">
+                                        <div class="grid__col-s-5-4">
+                                            <a href="" class="most-viewed__product-img-link">
+                                                <img src="./assets/img/Most_viewed/Mosted_viewed_product/24-215x260.jpg" alt="" class="most-viewed__product-img">
+                                            </a>
+                                        </div>
+                                        <div class="grid__col-s-6-6">
+                                            <div class="most-viewed__product-title">
+                                                <a href="#" class="most-viewed__product-title-link">
+                                                    <span>Modular Modern</span>
+                                                </a>
+                                            </div>
+                                            <div class="most-viewed__product-price">
+                                                <!-- <span class="most-viewed__product-price--old"></span> -->
+                                                <span class="most-viewed__product-price--current">$ 7.00 - $ 9.00</span>
+                                            </div>
+                                            <div class="most-viewed__product-rating">
+                                                <div class="most-viewed__product-rating-img">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                            </div>
+                                            <a href="" class="most-viewed__product-btn">
+                                                <i class="fas fa-shopping-cart"></i>
+                                                <span>Select options</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__col-s-3">
+                                <div class="most-viewed__product-wrapper">
+                                    <div class="grid__row-product">
+                                        <div class="grid__col-s-5-4">
+                                            <a href="" class="most-viewed__product-img-link">
+                                                <img src="./assets/img/Most_viewed/Mosted_viewed_product/19-215x260.jpg" alt="" class="most-viewed__product-img">
+                                            </a>
+                                        </div>
+                                        <div class="grid__col-s-6-6">
+                                            <div class="most-viewed__product-title">
+                                                <a href="#" class="most-viewed__product-title-link">
+                                                    <span>Modular Modern</span>
+                                                </a>
+                                            </div>
+                                            <div class="most-viewed__product-price">
+                                                <!-- <span class="most-viewed__product-price--old"></span> -->
+                                                <span class="most-viewed__product-price--current">$ 9.00</span>
+                                            </div>
+                                            <div class="most-viewed__product-rating">
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                            </div>
+                                            <a href="" class="most-viewed__product-btn">
+                                                <i class="fas fa-shopping-cart"></i>
+                                                <span>Add to cart</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__col-s-3">
+                                <div class="most-viewed__product-wrapper">
+                                    <div class="grid__row-product">
+                                        <div class="grid__col-s-5-4">
+                                            <a href="" class="most-viewed__product-img-link">
+                                                <img src="./assets/img/Most_viewed/Mosted_viewed_product/15-215x260.jpg" alt="" class="most-viewed__product-img">
+                                            </a>
+                                        </div>
+                                        <div class="grid__col-s-6-6">
+                                            <div class="most-viewed__product-title">
+                                                <a href="#" class="most-viewed__product-title-link">
+                                                    <span>Donec Cursus</span>
+                                                </a>
+                                            </div>
+                                            <div class="most-viewed__product-price">
+                                                <!-- <span class="most-viewed__product-price--old"></span> -->
+                                                <span class="most-viewed__product-price--current">$ 15.00</span>
+                                            </div>
+                                            <div class="most-viewed__product-rating">
+                                                <div class="most-viewed__product-rating-img">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                            </div>
+                                            <a href="" class="most-viewed__product-btn">
+                                                <i class="fas fa-shopping-cart"></i>
+                                                <span>Add to cart</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__col-s-3">
+                                <div class="most-viewed__product-wrapper">
+                                    <div class="grid__row-product">
+                                        <div class="grid__col-s-5-4">
+                                            <a href="" class="most-viewed__product-img-link">
+                                                <img src="./assets/img/Most_viewed/Mosted_viewed_product/26-215x260.jpg" alt="" class="most-viewed__product-img">
+                                            </a>
+                                        </div>
+                                        <div class="grid__col-s-6-6">
+                                            <div class="most-viewed__product-title">
+                                                <a href="#" class="most-viewed__product-title-link">
+                                                    <span>External/Affiliate Products</span>
+                                                </a>
+                                            </div>
+                                            <div class="most-viewed__product-price">
+                                                <span class="most-viewed__product-price--old">$ 9.00</span>
+                                                <span class="most-viewed__product-price--current">$ 8.00</span>
+                                            </div>
+                                            <div class="most-viewed__product-rating">
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                            </div>
+                                            <a href="" class="most-viewed__product-btn">
+                                                <i class="fas fa-shopping-cart"></i>
+                                                <span>Add to cart</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__col-s-3">
+                                <div class="most-viewed__product-wrapper">
+                                    <div class="grid__row-product">
+                                        <div class="grid__col-s-5-4">
+                                            <a href="" class="most-viewed__product-img-link">
+                                                <img src="./assets/img/Most_viewed/Mosted_viewed_product/3-215x260.jpg" alt="" class="most-viewed__product-img">
+                                            </a>
+                                        </div>
+                                        <div class="grid__col-s-6-6">
+                                            <div class="most-viewed__product-title">
+                                                <a href="#" class="most-viewed__product-title-link">
+                                                    <span>Modular Modern</span>
+                                                </a>
+                                            </div>
+                                            <div class="most-viewed__product-price">
+                                                <!-- <span class="most-viewed__product-price--old"></span> -->
+                                                <span class="most-viewed__product-price--current">$ 9.00</span>
+                                            </div>
+                                            <div class="most-viewed__product-rating">
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                            </div>
+                                            <a href="" class="most-viewed__product-btn">
+                                                <i class="fas fa-shopping-cart"></i>
+                                                <span>Add to cart</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__col-s-3">
+                                <div class="most-viewed__product-wrapper">
+                                    <div class="grid__row-product">
+                                        <div class="grid__col-s-5-4">
+                                            <a href="" class="most-viewed__product-img-link">
+                                                <img src="./assets/img/Most_viewed/Mosted_viewed_product/28-215x260.jpg" alt="" class="most-viewed__product-img">
+                                            </a>
+                                        </div>
+                                        <div class="grid__col-s-6-6">
+                                            <div class="most-viewed__product-title">
+                                                <a href="#" class="most-viewed__product-title-link">
+                                                    <span>Modular Modern</span>
+                                                </a>
+                                            </div>
+                                            <div class="most-viewed__product-price">
+                                                <!-- <span class="most-viewed__product-price--old"></span> -->
+                                                <span class="most-viewed__product-price--current">$ 9.00</span>
+                                            </div>
+                                            <div class="most-viewed__product-rating">
+                                                <div class="most-viewed__product-rating-img">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                            </div>
+                                            <a href="" class="most-viewed__product-btn">
+                                                <i class="fas fa-shopping-cart"></i>
+                                                <span>Add to cart</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__col-s-3">
+                                <div class="most-viewed__product-wrapper">
+                                    <div class="grid__row-product">
+                                        <div class="grid__col-s-5-4">
+                                            <a href="" class="most-viewed__product-img-link">
+                                                <img src="./assets/img/Most_viewed/Mosted_viewed_product/11-215x260.jpg" alt="" class="most-viewed__product-img">
+                                            </a>
+                                        </div>
+                                        <div class="grid__col-s-6-6">
+                                            <div class="most-viewed__product-title">
+                                                <a href="#" class="most-viewed__product-title-link">
+                                                    <span>Modular Modern</span>
+                                                </a>
+                                            </div>
+                                            <div class="most-viewed__product-price">
+                                                <!-- <span class="most-viewed__product-price--old"></span> -->
+                                                <span class="most-viewed__product-price--current">$ 9.00 - $ 15.00</span>
+                                            </div>
+                                            <div class="most-viewed__product-rating">
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img most-viewed__product-rating-img--rated">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                                <div class="most-viewed__product-rating-img">
+                                                    <i class="far fa-star most-viewed__product-star"></i>
+                                                    <i class="fas fa-star most-viewed__product-star-full"></i>
+                                                </div>
+                                            </div>
+                                            <a href="" class="most-viewed__product-btn">
+                                                <i class="fas fa-shopping-cart"></i>
+                                                <span>Add to cart</span>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="latest-post">
+                <div class="grid">
+                    <div class="latest-post__navbar">
+                        <h2 class="latest-post__navbar-heading">Latest posts</h2>
+                        <div class="latest-post__navbar-btn-wrapper">
+                            <div class="latest-post__navbar-btn latest-post__navbar-btn--left">
+                                <i class="fas fa-long-arrow-alt-left latest-post__navbar-btn-img"></i>
+                            </div>
+                            <div class="latest-post__navbar-btn latest-post__navbar-btn--right">
+                                <i class="fas fa-long-arrow-alt-right latest-post__navbar-btn-img"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="latest-post__blog">
+                        <div class="grid__row-menu">
+                            <div class="grid__col-l-4">
+                                <div class="latest-post__blog-wrapper">
+                                    <a href="" class="latest-post__blog-img-link">
+                                        <img src="./assets/img/Latest_post/blog-1-370x190.jpg" alt="" class="latest-post__blog-img">
+                                    </a>
+                                    <div class="latest-post__blog-info">
+                                        <div class="latest-post__blog-info-date">
+                                            <p class="latest-post__blog-info-date-day">3</p>
+                                            <p class="latest-post__blog-info-date-month">nov</p>
+                                        </div>
+                                        <div class="latest-post__blog-info-text">
+                                            <a href="" class="latest-post__blog-info-text-author">Admin</a>
+                                            <a href="" class="latest-post__blog-info-text-title">
+                                                Richard McClintock at Hampden-Sydney
+                                            </a>
+                                            <p class="latest-post__blog-info-text-body">
+                                                Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__col-l-4">
+                                <div class="latest-post__blog-wrapper">
+                                    <a href="" class="latest-post__blog-img-link">
+                                        <img src="./assets/img/Latest_post/blog-2-370x190.jpg" alt="" class="latest-post__blog-img">
+                                    </a>
+                                    <div class="latest-post__blog-info">
+                                        <div class="latest-post__blog-info-date">
+                                            <p class="latest-post__blog-info-date-day">3</p>
+                                            <p class="latest-post__blog-info-date-month">nov</p>
+                                        </div>
+                                        <div class="latest-post__blog-info-text">
+                                            <a href="" class="latest-post__blog-info-text-author">Admin</a>
+                                            <a href="" class="latest-post__blog-info-text-title">
+                                                Latin professor at Hampden-Sydney
+                                            </a>
+                                            <p class="latest-post__blog-info-text-body">
+                                                Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="grid__col-l-4">
+                                <div class="latest-post__blog-wrapper">
+                                    <a href="" class="latest-post__blog-img-link">
+                                        <img src="./assets/img/Latest_post/blog-3-370x190.jpg" alt="" class="latest-post__blog-img">
+                                    </a>
+                                    <div class="latest-post__blog-info">
+                                        <div class="latest-post__blog-info-date">
+                                            <p class="latest-post__blog-info-date-day">3</p>
+                                            <p class="latest-post__blog-info-date-month">nov</p>
+                                        </div>
+                                        <div class="latest-post__blog-info-text">
+                                            <a href="" class="latest-post__blog-info-text-author">Admin</a>
+                                            <a href="" class="latest-post__blog-info-text-title">
+                                                Morbi semper eros sit amet mi molestie
+                                            </a>
+                                            <p class="latest-post__blog-info-text-body">
+                                                Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the.
+                                            </p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div id="bottom-sidebar">
+                <div class="grid">
+                    <div class="bottom-sidebar__wrapper">
+                        <a href="" class="bottom-sidebar__wrapper-link">
+                            <img src="./assets/img/Bottom_sidebar/nazic.png" alt="" class="bottom-sidebar__wrapper-img">
+                        </a>
+                        <a href="" class="bottom-sidebar__wrapper-link">
+                            <img src="./assets/img/Bottom_sidebar/mbm.png" alt="" class="bottom-sidebar__wrapper-img">
+                        </a>
+                        <a href="" class="bottom-sidebar__wrapper-link">
+                            <img src="./assets/img/Bottom_sidebar/nova.png" alt="" class="bottom-sidebar__wrapper-img">
+                        </a>
+                        <a href="" class="bottom-sidebar__wrapper-link">
+                            <img src="./assets/img/Bottom_sidebar/avio.png" alt="" class="bottom-sidebar__wrapper-img">
+                        </a>
+                        <a href="" class="bottom-sidebar__wrapper-link">
+                            <img src="./assets/img/Bottom_sidebar/avan.png" alt="" class="bottom-sidebar__wrapper-img">
+                        </a>
+                        <a href="" class="bottom-sidebar__wrapper-link">
+                            <img src="./assets/img/Bottom_sidebar/lamino.png" alt="" class="bottom-sidebar__wrapper-img">
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer id="footer">
+            <div class="grid">
+                <div class="grid__row-product">
+                    <div class="grid__col-s-2-4">
+                        <h2 class="footer__heading">Contact us</h2>
+                        <div class="footer__info">
+                            <div class="footer__info-wrapper">
+                                <div class="footer__info-logo">
+                                    <i class="fas fa-home footer__info-logo-icon"></i>
+                                </div>
+                                <div class="footer__info-text">
+                                    <span class="footer__info-text--address">
+                                        8888 South Avenue Street, New York
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="footer__info-wrapper">
+                                <div class="footer__info-logo">
+                                    <i class="fas fa-phone-alt footer__info-logo-icon"></i>
+                                </div>
+                                <div class="footer__info-text">
+                                    <span class="footer__info-text--phone">
+                                        (12) 3 456 7896
+                                    </span>
+                                    <span class="footer__info-text--phone">
+                                        (12) 3 456 7895
+                                    </span>
+                                </div>
+                            </div>
+                            <div class="footer__info-wrapper">
+                                <div class="footer__info-logo">
+                                    <i class="fas fa-envelope footer__info-logo-icon"></i>
+                                </div>
+                                <div class="footer__info-text">
+                                    <a href="" class="footer__info-text--mail">
+                                        contact@simen.com
+                                    </a>
+                                    <a href="" class="footer__info-text--mail">
+                                        info@simen.com
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="grid__col-s-2-4">
+                        <h2 class="footer__heading">Service</h2>
+                        <div class="footer__info">
+                            <ul class="footer__info-list">
+                                <li class="footer__info-list-item">
+                                    <a href="" class="footer__info-list-item-link">
+                                        Prices & Currencies
+                                    </a>
+                                </li>
+                                <li class="footer__info-list-item">
+                                    <a href="" class="footer__info-list-item-link">
+                                        Secure Payment
+                                    </a>
+                                </li>
+                                <li class="footer__info-list-item">
+                                    <a href="" class="footer__info-list-item-link">
+                                        Delivery Times & Costs
+                                    </a>
+                                </li>
+                                <li class="footer__info-list-item">
+                                    <a href="" class="footer__info-list-item-link">
+                                        Returns & Exchanges
+                                    </a>
+                                </li>
+                                <li class="footer__info-list-item">
+                                    <a href="" class="footer__info-list-item-link">
+                                        FAQ’s
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid__col-s-2-4">
+                        <h2 class="footer__heading">Account</h2>
+                        <div class="footer__info">
+                            <ul class="footer__info-list">
+                                <li class="footer__info-list-item">
+                                    <a href="" class="footer__info-list-item-link">
+                                        My Account
+                                    </a>
+                                </li>
+                                <li class="footer__info-list-item">
+                                    <a href="" class="footer__info-list-item-link">
+                                        Wishlist
+                                    </a>
+                                </li>
+                                <li class="footer__info-list-item">
+                                    <a href="" class="footer__info-list-item-link">
+                                        Order History
+                                    </a>
+                                </li>
+                                <li class="footer__info-list-item">
+                                    <a href="" class="footer__info-list-item-link">
+                                        Specials
+                                    </a>
+                                </li>
+                                <li class="footer__info-list-item">
+                                    <a href="" class="footer__info-list-item-link">
+                                        Gift Vouchers
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid__col-s-2-4">
+                        <h2 class="footer__heading">Information</h2>
+                        <div class="footer__info">
+                            <ul class="footer__info-list">
+                                <li class="footer__info-list-item">
+                                    <a href="" class="footer__info-list-item-link">
+                                        My Account
+                                    </a>
+                                </li>
+                                <li class="footer__info-list-item">
+                                    <a href="" class="footer__info-list-item-link">
+                                        Wishlist
+                                    </a>
+                                </li>
+                                <li class="footer__info-list-item">
+                                    <a href="" class="footer__info-list-item-link">
+                                        Order History
+                                    </a>
+                                </li>
+                                <li class="footer__info-list-item">
+                                    <a href="" class="footer__info-list-item-link">
+                                        Specials
+                                    </a>
+                                </li>
+                                <li class="footer__info-list-item">
+                                    <a href="" class="footer__info-list-item-link">
+                                        Gift Vouchers
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="grid__col-s-2-4">
+                        <h2 class="footer__heading">Newsletter</h2>
+                        <div class="footer__info">
+                            <span class="footer__info-reg">
+                                Register your email for news
+                            </span>
+                            <input type="email" placeholder="Your email here" required class="footer__info-input">
+                            <input type="submit" value="Subscribe" class="footer__info-reg-btn">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <footer id="footer-bottom">
+            <div class="grid">
+                <div class="footer-bottom__wrapper">
+                    <div class="footer-bottom__copyright">
+                        <span>
+                            © 2015 Ecommerce software by Wordpress™ Designed by SNSTheme.Com ( Cloned by longvb219.github.io )
+                        </span>
+                    </div>
+                    <img src="./assets/img/Footer_bottom/payment.png" alt="" class="footer-bottom__payment">
+                </div>
+            </div>
+        </footer>
+    </div>
+</body>
+</html>
